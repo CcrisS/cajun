@@ -13,6 +13,7 @@
 
 <script>
 import News from '@/components/News';
+import { actionTypes } from './../store/actions'
 
 export default {
     data(){
@@ -22,7 +23,7 @@ export default {
     },
     components: { News },
     created(){
-        this.$store.dispatch('fetchNews').then(() => this.loading = false);
+        this.$store.dispatch(actionTypes.FETCH_NEWS).then(() => this.loading = false);
     }
 }
 </script>

@@ -9,3 +9,7 @@ export const actions = {
   }
   
 };
+
+export const actionTypes = {
+  FETCH_NEWS: 'fetchNews'
+}
