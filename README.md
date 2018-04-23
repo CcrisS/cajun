@@ -1,6 +1,6 @@
-# final-project
+# cajun
 
-> A Vue.js project with vue-router
+> A Vue.js project with vue-router and vuex. It shows a news list
 
 ## Build Setup
 
@@ -24,4 +24,8 @@ npm run unit
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Built With
+
+* [Vue.js](https://vuejs.org/) - JavaScript framework
+* [Vuex](https://vuex.vuejs.org/en/) - State management
+* [Vue router](https://router.vuejs.org/en/) - Router
